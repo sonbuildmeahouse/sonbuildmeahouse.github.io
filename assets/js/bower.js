@@ -10350,8 +10350,3 @@ return jQuery;
     render[settings.showEffect]();
   };
 })(jQuery);
-
-//test
-$(document).ready(function() {
-    $('#toc').toc({ title: '<i>Contents</i>'});
-});
