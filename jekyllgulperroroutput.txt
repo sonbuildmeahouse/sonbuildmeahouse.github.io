@@ -1,0 +1,59 @@
+[10:04:11] Using gulpfile /Volumes/G-DRIVE USB/local/sites/jekyllgulp/gulpfile.js
+[10:04:11] Starting 'default'...
+[10:04:11] Starting 'build'...
+[10:04:11] Starting 'bower-sass'...
+[10:04:11] Finished 'bower-sass' after 8.44 ms
+[10:04:11] Starting 'clean'...
+[10:04:11] Finished 'clean' after 3.82 ms
+[10:04:11] Starting 'jekyll-build'...
+[10:04:12] 'jekyll-build' errored after 787 ms
+[10:04:12] Error: 1
+    at formatError (/Users/yahwehprovides/.nvm/versions/node/v5.0.0/lib/node_modules/gulp/bin/gulp.js:169:10)
+    at Gulp.<anonymous> (/Users/yahwehprovides/.nvm/versions/node/v5.0.0/lib/node_modules/gulp/bin/gulp.js:195:15)
+    at emitOne (events.js:82:20)
+    at Gulp.emit (events.js:169:7)
+    at Gulp.Orchestrator._emitTaskDone (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:264:8)
+    at /Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:275:23
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:21:8)
+    at ChildProcess.cb (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:29:3)
+    at emitTwo (events.js:87:13)
+    at ChildProcess.emit (events.js:172:7)
+[10:04:12] 'default' errored after 803 ms
+[10:04:12] Error in plugin 'run-sequence(jekyll-build)'
+Error
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:56:13)
+    at Gulp.onError (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:67:4)
+    at emitOne (events.js:82:20)
+    at Gulp.emit (events.js:169:7)
+    at Gulp.Orchestrator._emitTaskDone (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:264:8)
+    at /Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:275:23
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:21:8)
+    at ChildProcess.cb (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:29:3)
+    at emitTwo (events.js:87:13)
+    at ChildProcess.emit (events.js:172:7)
+[10:04:12] 'build' errored after 803 ms
+[10:04:12] Error in plugin 'run-sequence(default)'
+Error
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:56:13)
+    at Gulp.onError (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:67:4)
+    at emitOne (events.js:82:20)
+    at Gulp.emit (events.js:169:7)
+    at Gulp.Orchestrator._emitTaskDone (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:264:8)
+    at /Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:275:23
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:21:8)
+    at cb (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:29:3)
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:60:5)
+    at Gulp.onError (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:67:4)
+[10:04:12] 'build' errored after 804 ms
+[10:04:12] Error in plugin 'run-sequence(jekyll-build)'
+Error
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:56:13)
+    at Gulp.onError (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/run-sequence/index.js:67:4)
+    at emitOne (events.js:82:20)
+    at Gulp.emit (events.js:169:7)
+    at Gulp.Orchestrator._emitTaskDone (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:264:8)
+    at /Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/index.js:275:23
+    at finish (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:21:8)
+    at ChildProcess.cb (/Volumes/G-DRIVE USB/local/sites/jekyllgulp/node_modules/orchestrator/lib/runTask.js:29:3)
+    at emitTwo (events.js:87:13)
+    at ChildProcess.emit (events.js:172:7)

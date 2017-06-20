@@ -6,8 +6,8 @@
 # 'jekyll serve'. If you change this file, please restart the server process.
 
 # Site settings
-title: Jekyll Gulp
-email: your-email@domain.com
+title: Son Build Me A House Church Resources
+email: sonbuildmeahouse@helix.vision
 description: > # this means to ignore newlines until "baseurl:"
   Write an awesome description for your new site here. You can edit this
   line in _config.yml. It will appear in your document head meta (for
@@ -16,6 +16,22 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://yourdomain.com" # the base hostname & protocol for your site
 twitter_username: jekyllrb
 github_username:  jekyll
+
+
+#these are the configuration variables for git-wiki
+show_downloads: true
+comments: true
+git_branch: master
+logo_url:
+google_analytics:
+theme:
+wiki_folder: wiki
+use_github_wiki: false
+use_prose_io: true
+google_cse_token:
+custom_head: false
+custom_sidebar: true
+custom_footer: false
 
 include:
   - "_pages"
@@ -32,6 +48,6 @@ exclude:
   - "Gemfile.lock"
   - "gulpconfig.yml"
 
-gems:
+plugins:
   - jekyll-sitemap
   - jekyll-seo-tag
