@@ -36,7 +36,7 @@ custom_footer: false
 include:
   - "_pages"
 exclude:
-  - "/assets/"
+#  - "/assets/"
   - "/bower_components/"
   - "bower.json"
   - "gulpfile.js"
