@@ -1,7 +1,3 @@
----
-permalink: /
-layout: default
----
 
 <h1 id="topic-list">List of Articles</h1>
 
