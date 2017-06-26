@@ -33,8 +33,7 @@ custom_head: false
 custom_sidebar: true
 custom_footer: false
 
-include:
-  - "_pages"
+
 exclude:
 #  - "/assets/"
   - "/bower_components/"
