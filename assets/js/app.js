@@ -35,7 +35,7 @@ $(document).ready(function () {
     );
 
 console.log('im here');
-console.log($.bigfoot());
+//console.log($.bigfoot());
 
 
 
@@ -45,5 +45,5 @@ console.log($.bigfoot());
 
 
     //bigfootjs
-    $.bigfoot();
+    $.bigfoot({actionOriginalFN: "ignore"});
 });
