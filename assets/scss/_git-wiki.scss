@@ -278,12 +278,32 @@ footer {
     border-left-color: $greenParrot;
     border-left-width: 1em;
   }
-  cite{
-
-  }
 }
 .exegesis{
   color:$yellowHavana;
+  blockquote{
+    border-left-color: $yellowHavana;
+    border-left-width: 1em;
+  }
+.bigfoot-footnote__container{
+  .bigfoot-footnote__button{
+
+  }
+
+}
+
+  .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:before{
+    background-image: none;
+  }
+
+  .bigfoot-footnote.is-scrollable .bigfoot-footnote__wrapper:after{
+    background-image: none;
+  }
+  .bigfoot-footnote__content{
+    background:$yellowHavana;
+    border:none;
+    color:white;
+  }
 }
 .tradition{
   color: $redGoogle;

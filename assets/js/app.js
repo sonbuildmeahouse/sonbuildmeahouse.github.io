@@ -35,15 +35,9 @@ $(document).ready(function () {
     );
 
 console.log('im here');
-//console.log($.bigfoot());
-
-
-
-
-
-
-
 
     //bigfootjs
     $.bigfoot({actionOriginalFN: "ignore"});
+
+
 });

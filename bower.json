@@ -17,21 +17,21 @@
   "devDependencies": {},
   "dependencies": {
     "jekyll-table-of-contents": "git@github.com:ghiculescu/jekyll-table-of-contents.git",
-    "jquery": "~2.2",
+    "jquery": "~3.2.1",
     "color-me-sass": "*",
-    "bigfoot": "*"
+    "bigfoot": "git@github.com:jajourda/bigfoot.git#master"
   },
   "overrides": {
     "jekyll-table-of-contents":{
       "main":["toc.js"],
       "dependencies":{
-        "jquery": "~2.2"
+        "jquery": "~3.2.1"
       }
     },
     "bigfoot":{
       "main":["dist/bigfoot.js","dist/bigfoot-bottom.scss","dist/bigfoot-default.scss","dist/bigfoot-number.scss"],
       "dependencies":{
-        "jquery": "~2.2"
+        "jquery": "~3.2.1"
       }
     }
   }
