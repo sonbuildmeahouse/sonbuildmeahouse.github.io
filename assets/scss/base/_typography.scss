@@ -17,6 +17,27 @@ h6 {
   margin: 0 0 $small-spacing;
 }
 
+h1{
+  font-size:modular-scale(6);
+}
+h2{
+  font-size:modular-scale(5);
+  color: lighten($base-font-color, 15%);
+}
+h3{
+  font-size:modular-scale(4);
+  color: lighten($base-font-color, 30%);
+}
+h4{
+  font-size:modular-scale(3);
+  color: lighten($base-font-color, 45%);
+}
+h5{
+  font-size:modular-scale(2);
+}
+h6{
+  font-size:modular-scale(1);
+}
 p {
   margin: 0 0 $small-spacing;
 }

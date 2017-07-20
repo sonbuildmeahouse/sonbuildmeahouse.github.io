@@ -58,7 +58,7 @@ watch:
   sass: "assets/scss/**/*.scss"
   pages:
     - "*.{md,html,yml,xml}"
-    - "{_data,_includes,_layouts,_pages,_posts}/**/*.{md,html,yml,xml}"
+    - "{_data,_includes,_layouts,_pages,_posts,wiki}/**/*.{md,html,yml,xml}"
     - "!_site/**/*.*"
     - "!assets/**/*.*"
 

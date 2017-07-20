@@ -33,4 +33,17 @@ $(document).ready(function () {
         {title: '<i>Table of Contents</i>', minimumHeaders: 1
         }
     );
+
+console.log('im here');
+console.log($.bigfoot());
+
+
+
+
+
+
+
+
+    //bigfootjs
+    $.bigfoot();
 });
