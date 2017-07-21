@@ -1,3 +1,5 @@
+@import 'bigfoot';
+
 body {
   background-color: #fff;
   padding:50px;
@@ -312,6 +314,7 @@ h5.structure-heading{
   text-transform: uppercase;
   letter-spacing:modular-scale(-5);
   font-size:modular-scale(1.5);
+  margin:1em 0;
 }
 h6.structure-heading{
   text-transform: uppercase;
@@ -329,3 +332,7 @@ h6.structure-heading{
     font-weight: bold;
   }
 }
+
+
+
+
