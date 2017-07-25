@@ -287,6 +287,9 @@ footer {
     border-left-color: $yellowHavana;
     border-left-width: 1em;
   }
+  p{
+    font-weight: bold;
+  }
 .bigfoot-footnote__container{
   .bigfoot-footnote__button{
 
@@ -324,6 +327,11 @@ h6.structure-heading{
 .structure-content{
   li{
     margin-bottom:2em;
+    blockquote{
+     &:last-child{
+       margin-bottom: 0;
+     }
+    }
   }
   cite{
     text-transform: uppercase;
@@ -331,6 +339,12 @@ h6.structure-heading{
     font-size:.8em;
     font-weight: bold;
   }
+  blockquote{
+    margin-bottom:1rem;
+  }
+}
+.underline{
+  text-decoration: underline;
 }
 
 
