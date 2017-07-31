@@ -52949,7 +52949,7 @@ $(document).ready(function () {
 
 
             // opens events in a popup window
-            //window.open(event.url, 'gcalevent', 'width=700,height=600');
+            window.open(event.url, 'gcalevent', 'width=700,height=600');
             return false;
         },
         defaultView:'listMonth'
