@@ -66,7 +66,7 @@ $(document).ready(function () {
             //window.open(event.url, 'gcalevent', 'width=700,height=600');
             return false;
         },
-        defaultView:'listYear'
+        defaultView:'listMonth'
     });
 
 });
