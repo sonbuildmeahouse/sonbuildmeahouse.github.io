@@ -19,20 +19,35 @@
     "jekyll-table-of-contents": "git@github.com:ghiculescu/jekyll-table-of-contents.git",
     "jquery": "~3.2.1",
     "color-me-sass": "*",
-    "bigfoot": "git@github.com:jajourda/bigfoot.git#master"
+    "bigfoot": "git@github.com:jajourda/bigfoot.git#master",
+    "fullcalendar": "~3.4.0"
   },
   "overrides": {
-    "jekyll-table-of-contents":{
-      "main":["toc.js"],
-      "dependencies":{
+    "jekyll-table-of-contents": {
+      "main": [
+        "toc.js"
+      ],
+      "dependencies": {
         "jquery": "~3.2.1"
       }
     },
-    "bigfoot":{
-      "main":["dist/bigfoot.js","dist/bigfoot-bottom.scss","dist/bigfoot-default.scss","dist/bigfoot-number.scss"],
-      "dependencies":{
+    "bigfoot": {
+      "main": [
+        "dist/bigfoot.js",
+        "dist/bigfoot-bottom.scss",
+        "dist/bigfoot-default.scss",
+        "dist/bigfoot-number.scss"
+      ],
+      "dependencies": {
         "jquery": "~3.2.1"
       }
+    },
+    "fullcalendar":{
+      "main":[
+        "dist/fullcalendar.js",
+        "dist/fullcalendar.css",
+        "dist/gcal.js"
+      ]
     }
   }
 }

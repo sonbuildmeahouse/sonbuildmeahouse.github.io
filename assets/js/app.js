@@ -30,14 +30,43 @@
 //why
 $(document).ready(function () {
     $('#toc').toc(
-        {title: '<i>Table of Contents</i>', minimumHeaders: 1
+        {
+            title: '<i>Table of Contents</i>', minimumHeaders: 1
         }
     );
 
-console.log('im here');
+    console.log('im here');
 
     //bigfootjs
     $.bigfoot({actionOriginalFN: "ignore"});
 
+
+    $('#calendar').fullCalendar({
+        displayEventTime: false, // don't show the time column in list view
+
+        googleCalendarApiKey: 'AIzaSyC1uRNqRN5Pig8GMxY5KLxJRQkhyBfnlfY',
+        events: {
+            googleCalendarId: 'fq1259fdec53lmurlmvnjcdmug@group.calendar.google.com',
+            className: 'gcal-event' // an option!
+        },
+        eventRender: function(event, element) {
+            // element.qtip({
+            //     content: event.description
+            // });
+            console.log(element);
+
+
+            element.html('<strong>'+event.description+'</strong>');
+        },
+        eventClick: function(event) {
+            console.log(event);
+
+
+            // opens events in a popup window
+            //window.open(event.url, 'gcalevent', 'width=700,height=600');
+            return false;
+        },
+        defaultView:'listYear'
+    });
 
 });
