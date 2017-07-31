@@ -20,7 +20,12 @@
     "jquery": "~3.2.1",
     "color-me-sass": "*",
     "bigfoot": "git@github.com:jajourda/bigfoot.git#master",
-    "fullcalendar": "~3.4.0"
+    "fullcalendar": "~3.4.0",
+    "lodash": "~4.17.4",
+    "jquery-handlebars": "git@github.com:jajourda/jquery-handlebars.git",
+    "handlebars":"~4.0",
+    "inlineDisqussions":"git@github.com:jajourda/inlineDisqussions.git",
+    "moment": "<=2.12.0"
   },
   "overrides": {
     "jekyll-table-of-contents": {
@@ -48,6 +53,15 @@
         "dist/fullcalendar.css",
         "dist/gcal.js"
       ]
+    },
+    "jquery-handlebars": {
+      "main": [
+        "jquery-handlebars-1.1.4.min.js"
+      ],
+      "dependencies": {
+        "jquery": "~3.2.1",
+        "handlebars":"~4.0"
+      }
     }
   }
 }

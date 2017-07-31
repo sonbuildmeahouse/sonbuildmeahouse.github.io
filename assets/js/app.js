@@ -1,5 +1,46 @@
 //test
 
+
+$.handlebars({
+    templatePath: '/templates/',
+    templateExtension: 'hbs'
+});
+Handlebars.registerHelper("math", function (lvalue, operator, rvalue, options) {
+    lvalue = parseFloat(lvalue);
+    rvalue = parseFloat(rvalue);
+
+    return {
+        "+": lvalue + rvalue,
+        "-": lvalue - rvalue,
+        "*": lvalue * rvalue,
+        "/": lvalue / rvalue,
+        "%": lvalue % rvalue
+    }[operator];
+});
+
+
+Handlebars.registerHelper('setVariable', function (varName, varValue, options) {
+    options.data.root[varName] = varValue;
+});
+
+
+
+Handlebars.registerHelper('ifCond', function(v1, v2, options) {
+    if(v1 === v2) {
+        return options.fn(this);
+    }
+    return options.inverse(this);
+});
+
+Handlebars.registerHelper('eachIndex', function(array, options) {
+    var result = '';
+    for (var i = 0; i < array.length; i++) {
+        result += options.fn({item: array[i], index: i});
+    }
+    return result;
+});
+
+
 (function (document) {
     var metas = document.getElementsByTagName('meta'),
         changeViewportContent = function (content) {
@@ -54,9 +95,23 @@ $(document).ready(function () {
             //     content: event.description
             // });
             console.log(element);
+            console.log('i am split');
 
 
-            element.html('<strong>'+event.description+'</strong>');
+            var readings = event.description.split(",");
+            $.each(readings,function(i){
+                console.log('*******');
+                console.log(readings[i]);
+            });
+
+            //element.html('<strong>'+event.description+'</strong>');
+
+            element.render('publicreading-calendar', {
+                torah: readings[0],
+                prophets: readings[1],
+                newTestament: readings[2],
+                psalms: readings[3]
+            });
         },
         eventClick: function(event) {
             console.log(event);

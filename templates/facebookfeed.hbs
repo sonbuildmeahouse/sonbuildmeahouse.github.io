@@ -1,0 +1,60 @@
+{{!--
+
+    <div class="slide" id="slide{{math post.index "+" 1}}"><h1>Slide Backgrounds {{post.index}}</h1></div>
+
+--}}
+
+
+
+
+{{!-- full array try --}}
+{{#each posts}}
+    <div class="slide" id="slide{{math @index "+" 1}}" style=" background-image:url({{this.full_picture}})" >
+        <div class="inner bkg-orange" >
+            <article>
+
+                            <h1 class="facebook-message">{{this.message}}</h1>
+
+                <div class="details">
+
+                    <div class="post-info">
+                        <time>{{this.moment}} | </time>  <span class="total-likes"> <i class="entypo-thumbs-up"></i> {{this.likes.summary.total_count}} </span>
+                    </div>
+                    <a href="{{this.link}}" class="fb">read post |   <i class="entypo-facebook"></i></a>
+                </div>
+            </article>
+        </div>
+
+    </div>
+{{/each}}
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!--if (index === 0) {-->
+<!--html.push('<li class="visible ' + post.hashtag + ' "style=" background-image:url('+ post.full_picture +' )">');-->
+    <!--} else {-->
+    <!--html.push('<li class=" ' + post.hashtag + '" style=" background-image:url('+ post.full_picture +' )">');-->
+    <!--}-->
+    <!--html.push('<div>');-->
+        <!--html.push('<a href="' + post.link + '" class=" view-item" data-effect="zoomIn">');-->
+            <!--//html.push('<img src="' + post.full_picture + '" alt="">');-->
+            <!--html.push('<div class="sub-info">' +-->
+                <!--'<h2 class="message '+post.decreaseMessage+' ">' + post.message + '</h2> ' +-->
+                <!--// '<div class="description"><span class="desc-label">desc:</span>'+ post.description + '</div>' +-->
+                <!--'<div class="total-likes"><span class="date">'+post.moment+'</span><span class="total-likes">TOTAL LIKES <i class="icon-thumbs-up"></i></span><span class="l-num">' + post.likes.summary.total_count + '</span></div>' +-->
+                <!--'</div>' +-->
+            <!--//button-->
+            <!--'<button class="cd-btn see-post"> See Post Now <span class="thin-font"> -> </span><i class="entypo-facebook"></i></button>'+-->
+            <!--'</a>' +-->
+        <!--'</div>'+-->
+    <!--'</li>');-->

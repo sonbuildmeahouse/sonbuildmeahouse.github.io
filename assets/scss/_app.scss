@@ -1,0 +1,32 @@
+.calendar-event{
+  h6.reading{
+    text-transform: uppercase;
+    margin-bottom: 0;
+    letter-spacing:.1em;
+  }
+  .reference{
+    text-transform: capitalize;
+    font-style: italic;
+  }
+  blockquote{
+    border-left-width:1em;
+    margin-bottom:.5em;
+    font-style: normal;
+  }
+  .torah{
+    color: $redPinterest;
+    border-left-color: $redPinterest;
+  }
+  .prophets{
+    color:$greenSpotify;
+    border-left-color: $greenSpotify;
+  }
+  .nt{
+    color:$blueVirb;
+    border-left-color: $blueVirb;
+  }
+  .psalms{
+    color:$purpleFandango;
+    border-left-color: $purpleFandango;
+  }
+}

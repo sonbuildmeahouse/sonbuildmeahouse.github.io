@@ -1,0 +1,25 @@
+<h3 class="scripture-heading">{{scripture.mainVersion.book.0.book_name}} {{scripture.mainVersion.book.0.chapter_nr}}:{{main.verse_ref}}</h3>
+
+
+<!--create sections for verses-->
+
+    {{#each main.chapter}}
+   <div class="indiv-verse-wrap">
+       <p class="indiv-verse indiv-inline-disqussion" data-disqus-identifier="leb-disqussion-{{../scripture.mainVersion.book.0.book_ref}}{{../scripture.mainVersion.book.0.chapter_nr}}:{{this.verse_nr}}"><strong>{{this.verse_nr}} </strong>{{this.verse}}</p>
+       {{#each ../additional }}
+           <div class="additional-versions">
+               {{#each this.book.0.chapter }}
+                   {{#ifCond this.verse_nr ../../this.verse_nr}}
+                       <div class="indiv-verse indiv-inline-disqussion" data-disqus-identifier="{{../../this.version}}-disqussion-{{../../this.book.0.book_ref}}{{../../this.book.0.chapter_nr}}:{{this.verse_nr}}">
+                           {{this.verse_nr}} {{this.verse}}
+                       </div>
+                   {{/ifCond}}
+               {{/each}}
+           </div>
+       {{/each}}
+   </div>
+    {{/each}}
+
+
+
+
