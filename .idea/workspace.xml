@@ -52,8 +52,8 @@
           <file leaf-file-name="love-feast.html" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/wiki/love-feast.html">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="465">
-                  <caret line="20" column="238" lean-forward="false" selection-start-line="20" selection-start-column="238" selection-end-line="20" selection-end-column="238" />
+                <state relative-caret-position="45">
+                  <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
                   <folding />
                 </state>
               </provider>
@@ -384,12 +384,12 @@
       <workItem from="1500973468670" duration="7819000" />
       <workItem from="1501090487796" duration="441000" />
       <workItem from="1501439031051" duration="8455000" />
-      <workItem from="1501513423087" duration="436000" />
+      <workItem from="1501513423087" duration="587000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="76737000" />
+    <option name="totallyTimeSpent" value="76888000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="48" y="23" width="1183" height="1205" extended-state="0" />
@@ -814,8 +814,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki/love-feast.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="465">
-          <caret line="20" column="238" lean-forward="false" selection-start-line="20" selection-start-column="238" selection-end-line="20" selection-end-column="238" />
+        <state relative-caret-position="45">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
           <folding />
         </state>
       </provider>
