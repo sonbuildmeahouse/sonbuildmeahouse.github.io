@@ -26,7 +26,7 @@
     "handlebars":"~4.0",
     "inlineDisqussions":"git@github.com:jajourda/inlineDisqussions.git",
     "moment": "<=2.12.0",
-    "jquery-collapser":"git@github.com:jajourda/jquery-collapser.git"
+    "jquery-collapser":"git@github.com:jajourda/jquery-collapser.git#master"
   },
   "overrides": {
     "jekyll-table-of-contents": {
@@ -50,7 +50,7 @@
     },
     "jquery-collapser": {
       "main": [
-        "jquery.collapser.min.js"
+        "jquery.collapser.js"
       ],
       "dependencies": {
         "jquery": "~3.2.1"

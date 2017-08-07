@@ -2,9 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8f1021b1-e00a-4d21-9bfe-3cbc689100a0" name="Default" comment="">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/all.js" afterPath="$PROJECT_DIR$/assets/js/all.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/app.js" afterPath="$PROJECT_DIR$/assets/js/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/js/bower.js" afterPath="$PROJECT_DIR$/assets/js/bower.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/scss/_app.scss" afterPath="$PROJECT_DIR$/assets/scss/_app.scss" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bower.json" afterPath="$PROJECT_DIR$/bower.json" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wiki/contributions.md" afterPath="$PROJECT_DIR$/wiki/contributions.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wiki/public-reading.html" afterPath="$PROJECT_DIR$/wiki/public-reading.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/wiki/spiritual-gifts.md" afterPath="$PROJECT_DIR$/wiki/spiritual-gifts.md" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -20,20 +23,10 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="test.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/test.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="90">
-              <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="default.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/_layouts/default.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="155">
+            <state relative-caret-position="185">
               <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -42,71 +35,31 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="contributions.md" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/contributions.md">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="512">
-              <caret line="235" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="public-reading.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/wiki/public-reading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
+            <state relative-caret-position="-69">
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="spiritual-gifts.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="spiritual-gifts.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/wiki/spiritual-gifts.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
+            <state relative-caret-position="452">
+              <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="bower.json" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/bower.json">
+      <file leaf-file-name="app.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/assets/js/app.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="478">
-              <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="apostle.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/wiki/apostle.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="107" column="5" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="107" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="gulpconfig.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/gulpconfig.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="60" column="88" lean-forward="false" selection-start-line="60" selection-start-column="88" selection-end-line="60" selection-end-column="88" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="_config.yml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/_config.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="405">
-              <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+            <state relative-caret-position="504">
+              <caret line="129" column="23" lean-forward="false" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
               <folding />
             </state>
           </provider>
@@ -137,6 +90,8 @@
       <find>call</find>
       <find>calendar</find>
       <find>fullcalendar</find>
+      <find>revelation</find>
+      <find>togues</find>
     </findStrings>
   </component>
   <component name="Git.Settings">
@@ -170,7 +125,6 @@
         <option value="$PROJECT_DIR$/assets/scss/base/_variables.scss" />
         <option value="$PROJECT_DIR$/assets/scss/base/_lists.scss" />
         <option value="$PROJECT_DIR$/assets/scss/scratch.js" />
-        <option value="$PROJECT_DIR$/assets/js/all.js" />
         <option value="$PROJECT_DIR$/assets/scss/_bigfoot.scss" />
         <option value="$PROJECT_DIR$/bower_components/bigfoot/dist/bigfoot-default.scss" />
         <option value="$PROJECT_DIR$/bower_components/bigfoot/dist/bigfoot-number.scss" />
@@ -184,15 +138,16 @@
         <option value="$PROJECT_DIR$/assets/scss/main.scss" />
         <option value="$PROJECT_DIR$/gulpconfig.yml" />
         <option value="$PROJECT_DIR$/templates/publicreading-calendar.hbs" />
-        <option value="$PROJECT_DIR$/assets/scss/_app.scss" />
-        <option value="$PROJECT_DIR$/assets/js/app.js" />
         <option value="$PROJECT_DIR$/_includes/head.html" />
         <option value="$PROJECT_DIR$/wiki/test.md" />
         <option value="$PROJECT_DIR$/_layouts/default.html" />
         <option value="$PROJECT_DIR$/wiki/contributions.md" />
         <option value="$PROJECT_DIR$/wiki/public-reading.html" />
-        <option value="$PROJECT_DIR$/wiki/spiritual-gifts.md" />
+        <option value="$PROJECT_DIR$/assets/js/all.js" />
         <option value="$PROJECT_DIR$/bower.json" />
+        <option value="$PROJECT_DIR$/assets/scss/_app.scss" />
+        <option value="$PROJECT_DIR$/assets/js/app.js" />
+        <option value="$PROJECT_DIR$/wiki/spiritual-gifts.md" />
       </list>
     </option>
   </component>
@@ -218,9 +173,9 @@
     <handled-path value="$PROJECT_DIR$/node_modules" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-3" />
-    <option name="y" value="23" />
-    <option name="width" value="1253" />
+    <option name="x" value="6" />
+    <option name="y" value="27" />
+    <option name="width" value="1099" />
     <option name="height" value="1205" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
@@ -339,6 +294,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="jekyllgulp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllgulp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllgulp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllgulp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="jekyllgulp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -483,19 +470,19 @@
       <workItem from="1501439031051" duration="8455000" />
       <workItem from="1501513423087" duration="9909000" />
       <workItem from="1501595088541" duration="583000" />
-      <workItem from="1501596040503" duration="9883000" />
+      <workItem from="1501596040503" duration="15312000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="96676000" />
+    <option name="totallyTimeSpent" value="102105000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-3" y="23" width="1253" height="1205" extended-state="0" />
+    <frame x="6" y="27" width="1099" height="1205" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Gulp" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.27516234" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.31447124" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.51003647" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3296593" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
@@ -685,13 +672,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/all.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="3863">
-          <caret line="7893" column="24" lean-forward="false" selection-start-line="7893" selection-start-column="24" selection-end-line="7893" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/bower_components/bigfoot/dist/bigfoot.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="206">
@@ -812,21 +792,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="87" column="72" lean-forward="true" selection-start-line="87" selection-start-column="72" selection-end-line="87" selection-end-column="72" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/assets/scss/_app.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="28" column="25" lean-forward="false" selection-start-line="28" selection-start-column="25" selection-end-line="28" selection-end-column="25" />
-          <caret line="29" column="38" lean-forward="false" selection-start-line="29" selection-start-column="38" selection-end-line="29" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/test.md">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -852,13 +817,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+    <entry file="file://$PROJECT_DIR$/_config.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="155">
-          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+        <state relative-caret-position="405">
+          <caret line="36" column="8" lean-forward="false" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/wiki/public-reading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-69">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/all.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1618">
+          <caret line="7876" column="27" lean-forward="true" selection-start-line="7876" selection-start-column="27" selection-end-line="7876" selection-end-column="27" />
           <folding>
-            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <marker date="1502130238000" expanded="true" signature="1620218:1620221" ph="/*...*/" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/bower.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="532">
+          <caret line="50" column="25" lean-forward="true" selection-start-line="50" selection-start-column="25" selection-end-line="50" selection-end-column="25" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -870,50 +859,52 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/_config.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="405">
-          <caret line="36" column="8" lean-forward="true" selection-start-line="36" selection-start-column="8" selection-end-line="36" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/wiki/apostle.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="107" column="5" lean-forward="true" selection-start-line="96" selection-start-column="0" selection-end-line="107" selection-end-column="5" />
+        <state relative-caret-position="-185">
+          <caret line="107" column="5" lean-forward="false" selection-start-line="96" selection-start-column="0" selection-end-line="107" selection-end-column="5" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/wiki/public-reading.html">
+    <entry file="file://$PROJECT_DIR$/assets/scss/_app.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="3" selection-end-column="3" />
+        <state relative-caret-position="90">
+          <caret line="6" column="13" lean-forward="true" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/js/app.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="504">
+          <caret line="129" column="23" lean-forward="false" selection-start-line="129" selection-start-column="23" selection-end-line="129" selection-end-column="23" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki/contributions.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="512">
-          <caret line="235" column="23" lean-forward="true" selection-start-line="0" selection-start-column="0" selection-end-line="261" selection-end-column="0" />
+        <state relative-caret-position="4500">
+          <caret line="225" column="35" lean-forward="true" selection-start-line="225" selection-start-column="35" selection-end-line="225" selection-end-column="35" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/_layouts/default.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="53" column="35" lean-forward="false" selection-start-line="53" selection-start-column="35" selection-end-line="53" selection-end-column="35" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#section#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/wiki/spiritual-gifts.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="35" column="51" lean-forward="true" selection-start-line="35" selection-start-column="51" selection-end-line="35" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/bower.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="478">
-          <caret line="53" column="8" lean-forward="true" selection-start-line="53" selection-start-column="8" selection-end-line="53" selection-end-column="8" />
+        <state relative-caret-position="452">
+          <caret line="338" column="41" lean-forward="false" selection-start-line="338" selection-start-column="41" selection-end-line="338" selection-end-column="41" />
           <folding />
         </state>
       </provider>

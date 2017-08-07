@@ -30,3 +30,21 @@
     border-left-color: $purpleFandango;
   }
 }
+
+
+.collapser-button{
+  background: $greenParrot;
+  border-radius:3px;
+  padding:.5em;
+  margin:.5em 0;
+  position: relative;
+  width:25%;
+  display: block;
+  color:white!important;
+  text-align: center;
+  text-transform: uppercase;
+  font-style: normal;
+  text-decoration: none!important;
+  font-weight: 900;
+  font-size:.85em;
+}

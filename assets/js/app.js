@@ -124,4 +124,17 @@ $(document).ready(function () {
         defaultView:'listMonth'
     });
 
+
+
+    //truncate long based on lines
+    $('.shorten-passage').collapser({
+        mode: 'lines',
+        truncate: 3,
+        linesUseText: false,
+        controlBtn: 'collapser-button',
+        showText: 'Read Full Passage',
+        hideText: 'Collapse Passage'
+    });
+
+
 });
