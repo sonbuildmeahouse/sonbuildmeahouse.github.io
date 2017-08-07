@@ -25,7 +25,8 @@
     "jquery-handlebars": "git@github.com:jajourda/jquery-handlebars.git",
     "handlebars":"~4.0",
     "inlineDisqussions":"git@github.com:jajourda/inlineDisqussions.git",
-    "moment": "<=2.12.0"
+    "moment": "<=2.12.0",
+    "jquery-collapser":"git@github.com:jajourda/jquery-collapser.git"
   },
   "overrides": {
     "jekyll-table-of-contents": {
@@ -42,6 +43,14 @@
         "dist/bigfoot-bottom.scss",
         "dist/bigfoot-default.scss",
         "dist/bigfoot-number.scss"
+      ],
+      "dependencies": {
+        "jquery": "~3.2.1"
+      }
+    },
+    "jquery-collapser": {
+      "main": [
+        "jquery.collapser.min.js"
       ],
       "dependencies": {
         "jquery": "~3.2.1"

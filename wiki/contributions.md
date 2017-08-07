@@ -60,8 +60,6 @@ layout: default
     </li>
 </ol>
 
-
-</p>
 <div class="exegesis">
 <h5 class="exegesis structure-heading">Exegesis</h5>
 <h6 class="exegesis structure-heading">Language</h6>
