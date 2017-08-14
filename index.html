@@ -5,5 +5,15 @@ layout: page
 
 <h1 id="topic-list">List of Articles</h1>
 
-<p>Here are the articles that we have so far. Let us know what you would like to see in the comments :)</p>
-
+<p>Here are the articles that we have so far. They are not complete, and constantly being updated. Let us know what you would like to see in the comments :)</p>
+<ul class="main-list">
+    {% for p in site.pages %}
+    {% if p.url contains '/wiki' %}
+    <li>
+        <a href="{{p.url}}">
+            {{p.name | remove: '.html' | remove: '.md' | replace: '-',' ' }}
+        </a>
+    </li>
+    {% endif %}
+    {% endfor %}
+</ul>

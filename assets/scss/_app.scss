@@ -48,3 +48,12 @@
   font-weight: 900;
   font-size:.85em;
 }
+
+.main-list{
+  list-style-type: none;
+  li{
+    a{
+      text-transform: capitalize;
+    }
+  }
+}
