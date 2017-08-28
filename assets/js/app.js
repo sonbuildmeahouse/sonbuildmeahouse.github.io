@@ -86,32 +86,85 @@ $(document).ready(function () {
         displayEventTime: false, // don't show the time column in list view
 
         googleCalendarApiKey: 'AIzaSyC1uRNqRN5Pig8GMxY5KLxJRQkhyBfnlfY',
-        events: {
-            googleCalendarId: 'fq1259fdec53lmurlmvnjcdmug@group.calendar.google.com',
-            className: 'gcal-event' // an option!
-        },
+        eventSources: [
+            {
+                googleCalendarId: 'fq1259fdec53lmurlmvnjcdmug@group.calendar.google.com',
+                className: 'gcal-event' // an option!
+            },
+            {
+                googleCalendarId: 'oh1h0rb5srek6ru44trki3h2ipia4aa4@import.calendar.google.com',
+                className: 'gcal-event is-torah', // an option!
+                data: {
+                    custom_param1: 'something',
+                    custom_param2: 'somethingelse'
+                }
+            }
+        ],
         eventRender: function(event, element) {
             // element.qtip({
             //     content: event.description
             // });
+            console.log('&&&&&&&&&&&&&&&&&&&&&');
+
+
+            console.log('i am event:');
+
+
+            console.log(event);
+
+
             console.log(element);
             console.log('i am split');
 
 
-            var readings = event.description.split(",");
-            $.each(readings,function(i){
-                console.log('*******');
-                console.log(readings[i]);
-            });
+            /*<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>*/
+            //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+            //check if 'is-torah'
 
-            //element.html('<strong>'+event.description+'</strong>');
 
-            element.render('publicreading-calendar', {
-                torah: readings[0],
-                prophets: readings[1],
-                newTestament: readings[2],
-                psalms: readings[3]
-            });
+            console.log($(element).prop('classList'));
+            // $.each($(element).prop('classList'), function(i,d){
+            //     console.log('i am i baby:');
+            //     console.log(d);
+            //
+            // });
+
+      var isTorah =  _.includes($(element).prop('classList'), 'is-torah');
+      console.log(isTorah);
+
+      if(isTorah){
+          element.render('torah-calendar', {
+              torah: event.description
+          });
+
+      }else{
+          /*<<<<<<<<<<<<<<<<<<<<>>>>>>>>>>>>>>>>>>>>>>*/
+          //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+          //if is not Torah reading specifically
+
+
+          var readings = event.description.split(",");
+          $.each(readings,function(i){
+              console.log('*******');
+              console.log(readings[i]);
+          });
+
+          //element.html('<strong>'+event.description+'</strong>');
+
+          element.render('prophets-nt-psalms-calendar', {
+              prophets: readings[0],
+              newTestament: readings[1],
+              psalms: readings[2]
+          });
+      }
+
+
+
+
+
+
+
+
         },
         eventClick: function(event) {
             console.log(event);
