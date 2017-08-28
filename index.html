@@ -10,10 +10,15 @@ layout: page
     {% for p in site.pages %}
     {% if p.url contains '/wiki' %}
     <li>
-        <a href="{{p.url}}">
-            {{p.name | remove: '.html' | remove: '.md' | replace: '-',' ' }}
-        </a>
+       <h3>
+           <a href="{{p.url}}">
+               {{p.name | remove: '.html' | remove: '.md' | replace: '-',' ' }}
+           </a>
+       </h3>
     </li>
     {% endif %}
     {% endfor %}
 </ul>
+
+
+{% include reading-calendar.html %}
